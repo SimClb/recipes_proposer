@@ -1,0 +1,4 @@
+__pycache__
+.vscode
+VENV
+What_We_Eat/db.sqlite3

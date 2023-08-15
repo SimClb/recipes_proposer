@@ -1,0 +1,32 @@
+.recipes {
+  width: 100%;
+  margin: 50px 0px;
+  display: flex;
+  justify-content: center;
+}
+.recipes .recipe {
+  width: 70%;
+  margin: auto;
+}
+.recipes .recipe .element {
+  position: relative;
+  margin: 20px 0px;
+}
+.recipes .recipe .element .title {
+  height: 70px;
+  color: #333;
+}
+.recipes .recipe .element h4 {
+  color: #777;
+}
+.recipes .recipe .element p {
+  height: 300px;
+  overflow: scroll;
+}
+
+@media (max-width: 992px) {
+  section .recipes .recipe .element p {
+    height: 150px;
+    border: 1px solid red;
+  }
+}/*# sourceMappingURL=proposer.css.map */

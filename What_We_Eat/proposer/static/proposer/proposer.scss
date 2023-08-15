@@ -1,0 +1,48 @@
+.recipes {
+    width: 100%;
+    margin: 50px 0px;
+
+    display: flex;
+    justify-content: center;
+
+    .recipe {
+        
+        width: 70%;
+        margin: auto;
+
+        .element {
+            position: relative;
+            margin: 20px 0px;
+
+            .title {
+                height: 70px;
+                color: #333;
+            }
+            h4 {
+                color: #777;
+            }
+
+            p {
+                height: 300px;
+                overflow: scroll;
+
+            }
+
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    section {
+        .recipes {
+            .recipe {
+                .element {
+                    p {
+                        height: 150px;
+                        border: 1px solid red;
+                    }
+                }
+            }
+        }
+    }
+}

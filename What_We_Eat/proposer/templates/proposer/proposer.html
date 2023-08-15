@@ -1,0 +1,44 @@
+{% extends "proposer/base.html" %}
+{% load static %}
+
+{% block Title %}Home | MyKitchen{% endblock Title %}
+
+{% block link %}
+<link rel="stylesheet" href="{% static 'proposer/proposer.css' %}">
+{% endblock link %}
+
+
+
+{% block content %}
+
+<section>
+    <div class="recipes">
+        <div class="row recipe">
+
+            {% for recipe in ele %}
+
+            <div class="col-12 col-md-12 col-lg-6 col-xl-4 element">
+
+                <h3 class="title">{{ recipe.name }}</h3>
+                <h4>Ingrédients ;</h4>
+                <p>{{ recipe.ingredients }}</p>
+
+                <a href="{{ recipe.link }}" target='__blank'>Les instructions</a>
+
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+    
+</section>
+
+<section>
+
+    
+
+</section>
+
+{% endblock content %}
