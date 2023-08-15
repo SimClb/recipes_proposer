@@ -99,14 +99,6 @@ body article h4 {
   font-weight: 400;
   font-style: normal;
 }
-body article a {
-  padding: 5px 30px;
-  font-size: 1.2em;
-  font-family: "proxima-nova", sans-serif;
-  border: 2px solid #184c98;
-  border-radius: 10px;
-  color: #333;
-}
 body article .line {
   height: 1px;
   width: 70%;
